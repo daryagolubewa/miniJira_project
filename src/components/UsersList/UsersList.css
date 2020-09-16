@@ -1,0 +1,21 @@
+.user-list-main {
+    display: flex;
+    align-items: center;
+
+}
+
+.user-list-main-info {
+    margin: 0px 15px 5px 0px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.user-list-main-info:first-child {
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #b2eba7;
+}
+
+.user-list-main-info:not(:first-child) {
+    background-color: #ebeba7;
+}

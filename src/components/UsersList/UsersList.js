@@ -1,4 +1,5 @@
 import React from 'react';
+import './UsersList.css'
 
 
 class UsersList extends React.Component {
@@ -9,10 +10,18 @@ class UsersList extends React.Component {
     }
 
     render() {
+        const { users, admin } = this.props;
+        let newUsers = [...users];
+        newUsers.splice(2, 0, admin);
+
         return (
-            <div>
-                {this.props.users.map(item => (
-                    <div> {item.name} </div>
+            <div className='user-list-main'>
+                {newUsers.map(item => (
+                    <div className='user-list-main-block'>
+                        <div className='user-list-main-info'> {item.name} </div>
+                        <div className='user-list-main-info'> {item.age} </div>
+                        <div className='user-list-main-info'> {item.city} </div>
+                    </div>
                 ))}
             </div>
         )

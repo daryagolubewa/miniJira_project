@@ -1,0 +1,14 @@
+.app-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.app-main-counter-block {
+    display: flex;
+    margin: 0px 0px 15px 0px;
+}
+
+.app-main-counter {
+    margin: 0px 15px 0px 15px;
+    line-height: 29px;
+}
