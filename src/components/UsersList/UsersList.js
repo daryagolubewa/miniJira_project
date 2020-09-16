@@ -9,10 +9,15 @@ class UsersList extends React.Component {
     }
 
     render() {
+        const { users } = this.props;
         return (
             <div>
-                {this.props.users.map(item => (
-                    <div> {item.name} </div>
+                { users.map(item => (
+                    <div>
+                        <div> {item.name} </div>
+                        <div> {item.age} </div>
+                        <div> {item.city} </div>
+                    </div>
                 ))}
             </div>
         )

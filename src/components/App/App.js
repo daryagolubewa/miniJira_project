@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import UsersList from "../UsersList/UsersList"
+import Table from "../Table/Table";
 
 class App extends React.Component {
 
@@ -30,7 +31,45 @@ class App extends React.Component {
                     age: '34',
                     city: 'New-York',
                 }
+            ],
+            tableData: [
+                {
+                    icon: '',
+                    title: 'Story',
+                    name: 'Alan',
+                    key: 'rrrrr',
+                    category: 'Transport',
+                },
+                {
+                    icon: '',
+                    title: 'Ginger',
+                    name: 'Alister',
+                    key: 'ususu',
+                    category: 'Culture',
+                },
+                {
+                    icon: '',
+                    title: 'Vampire',
+                    name: 'Jeff',
+                    key: 'jrgikers',
+                    category: 'Culture',
+                },
+                {
+                    icon: '',
+                    title: 'Wonderland',
+                    name: 'Alice',
+                    key: 'twidle',
+                    category: 'Drugs',
+                },
+                {
+                    icon: '',
+                    title: 'Gild',
+                    name: 'Graham',
+                    key: 'rlkd',
+                    category: 'Diagnosis',
+                }
             ]
+
         };
         this.onClickMinus = this.onClickMinus.bind(this);
     }
@@ -53,6 +92,7 @@ class App extends React.Component {
                 <button onClick={ () => this.onClickPlus() } > + </button>
 
                 <UsersList users={this.state.users} />
+                <Table table={this.state.tableData}/>
             </div>
         );
     }
