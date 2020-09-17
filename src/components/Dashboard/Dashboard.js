@@ -1,6 +1,6 @@
 import React from 'react';
-import './.css'
 import Table from "../Table/Table";
+import './Dashboard.css'
 
 export default class Dashboard extends React.Component {
 
@@ -10,12 +10,14 @@ export default class Dashboard extends React.Component {
     }
 
 
-
     render() {
         return (
-            <div className=''>
-                <h2>Добро пожаловать!</h2>
-                <Table/>
+            <div className='board-wrapper'>
+                <div> <div className='board-navbar-left'></div></div>
+                    <div>
+                        <h2 className='board-header'>Добро пожаловать!</h2>
+                        <Table/>
+                    </div>
             </div>
         );
     }

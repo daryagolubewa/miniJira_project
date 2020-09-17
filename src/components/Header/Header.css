@@ -1,0 +1,20 @@
+
+.header {
+    height: 50px;
+    width: 100%;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.header-btn {
+    border: 1px solid darkcyan;
+    background-color: darkcyan;
+    color: white;
+
+}
+
+.header-btn:hover {
+    color: mediumslateblue;
+}

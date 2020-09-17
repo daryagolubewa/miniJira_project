@@ -10,7 +10,7 @@ export default class SignUp extends Component {
 
     render() {
         return (
-            <div>
+            <div className='form-parent'>
                 <div className='form-wrapper'>
                     <div className='form'>
                         <form action="">
@@ -19,7 +19,7 @@ export default class SignUp extends Component {
                             <input type="text" id="fname" value="E-mail" className='form-input-email'/><br></br>
                             <label htmlFor="fname">Введите пароль:</label><br></br>
                             <input type="text" id="fname" value="Пароль" className='form-input-pass'/><br></br>
-                            <button className='button'>Отправить</button>
+                            <button className='btn-submit' onClick={this.props.isAuthClick}>Отправить</button>
 
                         </form>
                     </div>

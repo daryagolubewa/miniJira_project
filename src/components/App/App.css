@@ -1,27 +1,13 @@
-<<<<<<< HEAD
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
 .app-main {
     display: flex;
     flex-direction: column;
+    width: 100vw;
+    height: 100vh;
 }
 
-.app-main-counter-block {
-    display: flex;
-    margin: 0px 0px 15px 0px;
-}
-
-.app-main-counter {
-    margin: 0px 15px 0px 15px;
-    line-height: 29px;
-=======
-.main-header {
-    height: 50px;
-    width: 100%;
-    background-color: darkcyan;
-}
-
-.main-navbar-left {
-    height: 700px;
-    width: 200px;
-    background-color: darkcyan;
->>>>>>> origin/master
-}

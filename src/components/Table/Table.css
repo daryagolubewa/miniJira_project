@@ -1,18 +1,19 @@
 .table-wrapper {
     margin: 15px;
+    width: 100vw;
 }
 
-.table {
+table {
     border: 1px solid black;
-    box-shadow: 10px 5px 5px coral;
     border-collapse: collapse;
+    width: 100%;
 }
 
-.table th {
+table th {
     background-color: aquamarine;
 }
 
-.table td {
+table td {
     background-color: beige;
 }
 
@@ -20,23 +21,4 @@ tr:hover {
     background-color: cornflowerblue;
 }
 
-button {
-    margin: 10px 10px 10px 0px;
-    border: 1px solid darkcyan;
-    border-radius: 5px;
-    background-color: white;
-    height: 30px;
-    width: 85px;
-    box-shadow: 2px 2px 2px darkcyan;
-}
-
-button:hover {
-    background-color: mediumslateblue;
-}
-
-.btn-wrapper {
-    display: flex;
-    justify-content: space-between;
-    width: 480px;
-}
 

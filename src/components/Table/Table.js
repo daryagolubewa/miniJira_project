@@ -13,7 +13,7 @@ export default class Table extends React.Component {
     render() {
         return (
             <div className='table-wrapper'>
-                <table >
+                <table>
                     <tr>
                         <th>Firstname</th>
                         <th>Lastname</th>

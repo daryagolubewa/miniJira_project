@@ -4,6 +4,7 @@ import { Switch, Redirect, Route } from 'react-router';
 import Dashboard from '../../components/Dashboard/Dashboard';
 import SignUp from '../../components/SignUp/SignUp';
 import SignIn from '../../components/SignIn/SignIn';
+import Header from '../../components/Header/Header';
 
 class App extends React.Component {
 
@@ -26,6 +27,7 @@ class App extends React.Component {
     render() {
         return (
             <div className='app-main'>
+                <Header isAuth={this.state.isAuth}/>
                 { this.state.isAuth && <Switch>
                     <Route path='/dashboard' render={() => <Dashboard/> }/>
                     <Redirect to='/dashboard'/>

@@ -1,3 +1,11 @@
+.form-parent {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .form-wrapper {
     margin: 0 auto;
     width: 300px;
@@ -14,7 +22,7 @@
     margin: 0px 0px 0px 60px;
 }
 
-button {
+.btn-submit {
     margin: 10px 10px 10px 0px;
     border: 1px solid darkcyan;
     border-radius: 5px;
@@ -24,7 +32,7 @@ button {
     box-shadow: 2px 2px 2px darkcyan;
 }
 
-button:hover {
+.btn-submit:hover {
     background-color: mediumslateblue;
 }
 
