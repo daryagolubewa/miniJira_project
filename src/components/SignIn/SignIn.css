@@ -1,0 +1,47 @@
+.form-wrapper {
+    margin: 0 auto;
+    width: 300px;
+    height: 250px;
+    border: 1px solid darkcyan;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    box-shadow: 2px 2px 2px darkcyan;
+}
+
+.form {
+    margin: 0px 0px 0px 60px;
+}
+
+button {
+    margin: 10px 10px 10px 0px;
+    border: 1px solid darkcyan;
+    border-radius: 5px;
+    background-color: white;
+    height: 30px;
+    width: 85px;
+    box-shadow: 2px 2px 2px darkcyan;
+}
+
+button:hover {
+    background-color: mediumslateblue;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 480px;
+}
+
+.form-input-email {
+    border: 1px solid darkcyan;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.form-input-pass {
+    border: 1px solid darkcyan;
+    border-radius: 5px;
+    height: 25px;
+}

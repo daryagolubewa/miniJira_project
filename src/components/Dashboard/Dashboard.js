@@ -1,19 +1,23 @@
-import React, { Component } from 'react';
+import React from 'react';
+import './.css'
+import Table from "../Table/Table";
 
+export default class Dashboard extends React.Component {
 
-export default class Dashboard extends Component {
 
     constructor(props) {
         super(props);
     }
 
+
+
     render() {
-        console.log('fvmmvksfvn')
         return (
-            <div>
-                Главная страница
+            <div className=''>
+                <h2>Добро пожаловать!</h2>
+                <Table/>
             </div>
-        )
+        );
     }
 
 }
