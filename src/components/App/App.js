@@ -1,7 +1,5 @@
 import React from 'react';
-import '../../App.css';
-import UsersList from "../UsersList/UsersList"
-import Table from "../Table/Table";
+import './App.css'
 
 class App extends React.Component {
 
@@ -74,25 +72,17 @@ class App extends React.Component {
         this.onClickMinus = this.onClickMinus.bind(this);
     }
 
-    onClickMinus() {
-        const {counter} = this.state;
-        this.setState({counter: counter - 1});
-    }
 
-    onClickPlus() {
-        const {counter} = this.state;
-        this.setState({counter: counter + 1});
-    }
 
     render() {
         return (
-            <div>
-                <button onClick={ () => this.onClickMinus() } > - </button>
-                <div> {this.state.counter} </div>
-                <button onClick={ () => this.onClickPlus() } > + </button>
+            <div className='main-header'>
+                <div className='main-navbar-left'>
 
-                <UsersList users={this.state.users} />
-                <Table table={this.state.tableData}/>
+                </div>
+                <div className='main-main-part'>
+
+                </div>
             </div>
         );
     }
