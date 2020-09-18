@@ -1,6 +1,7 @@
 .table-wrapper {
-    margin: 15px;
-    width: 100vw;
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 table {

@@ -4,8 +4,27 @@
     width: 100%;
     background-color: darkcyan;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    color: white;
 
+}
+
+.header-info {
+    margin: 0px 0px 0px 25px;
+    font-weight: bold;
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+}
+
+.header-elems {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-boards {
+    display: flex;
+    align-self: start;
 }
 
 .header-btn {

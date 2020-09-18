@@ -14,7 +14,7 @@ export default class Dashboard extends React.Component {
         return (
             <div className='board-wrapper'>
                 <div> <div className='board-navbar-left'></div></div>
-                    <div>
+                    <div className='board-main'>
                         <h2 className='board-header'>Добро пожаловать!</h2>
                         <Table/>
                     </div>

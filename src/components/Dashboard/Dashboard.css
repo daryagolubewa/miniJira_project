@@ -4,6 +4,11 @@
     background-color: darkcyan;
 }
 
+.board-main {
+    width: 100%;
+}
+
+
 .board-wrapper {
     display: flex;
     flex-direction: row;

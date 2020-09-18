@@ -22,7 +22,7 @@
     margin: 0px 0px 0px 60px;
 }
 
-button {
+.btn-submit-info {
     margin: 10px 10px 10px 0px;
     border: 1px solid darkcyan;
     border-radius: 5px;
@@ -32,7 +32,7 @@ button {
     box-shadow: 2px 2px 2px darkcyan;
 }
 
-button:hover {
+.btn-submit-info:hover {
     background-color: mediumslateblue;
 }
 

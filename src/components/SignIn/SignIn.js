@@ -19,7 +19,7 @@ export default class SignIn extends Component {
                             <input type="text" id="fname" value="E-mail" className='form-input-email'/><br></br>
                             <label htmlFor="fname">Введите пароль:</label><br></br>
                             <input type="text" id="fname" value="Пароль" className='form-input-pass'/><br></br>
-                            <button className='button'>Отправить</button>
+                            <button className='btn-submit-info'>Отправить</button>
 
                         </form>
                     </div>
