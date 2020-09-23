@@ -22,7 +22,7 @@ export default class Header extends Component {
                     }
                     {this.props.isAuth &&
                     <div className='header-elems'>
-                        <div className='header-boards'>Доски</div>
+                        {/*<div className='header-boards'>Доски</div>*/}
                         <button className='header-btn'>Выйти</button>
                     </div>
                     }
